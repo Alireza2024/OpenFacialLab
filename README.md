@@ -23,6 +23,11 @@ python examples/demo.py
 python -m unittest discover -s tests
 ```
 
+
+## Autodesk Maya experiment
+
+An **untested** Maya-based blendshape target transfer experiment has been added under [`maya/`](maya/). It explores transferring facial poses between two meshes using Maya's wrap deformer. See [Maya experiment notes](maya/README.md) for setup assumptions and limitations. No Maya integration or production-readiness is claimed.
+
 ## Roadmap (planned, not implemented)
 
 1. Define a documented facial pose and channel naming format.
